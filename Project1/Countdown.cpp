@@ -827,13 +827,24 @@ int main()
 	*/
 	//std::cout << "=============\n";
 	//std::cout << opers.size() << std::endl;
-	/* -----------------------------------------------------------------------------------------
+	/* ---------------------------------------------------------------------------------------------------
 	This section of code rearranges the list of permutations of 5 operations so that 
 	the sets of operations which are most likely to make a solution are used first in a search.
 		-	We only add sets of permutations to the list if * is one of the operations
 		-	We only add sets of permutations if they have a good variety of operations
 		   --> dicated by the size of makeCombn_operations vector; large vector ==> lots of variety
-		-	
+
+	We have already worked out the different permutations of five operations for the six numbers we
+	we are required to use to solve the game. In the next loop the sets of operations are rearranged 
+	so that the most "useful" sets are used first in the search for a solution. For example the set
+	(////-) is pretty much useless in finding a solution to the numbers game, whereas (*++-/) is 
+	probably much more likely to yield answers near the target number. The code here evaluates the 
+	importance of a given set of permutations and adds it to the list it will search through in 
+	finding a solution, otherwise it is not added. 
+
+	This could be made adaptable for different number sets, e.g. more * if we have smaller numbers 
+	in order to achieve larger numbers. Certainly +, *  are used nearly everytime, whereas - and /
+	see less frequent use. 
 	*/
 	std::vector<std::string> opers_tmp;
 	for (int k = 0; k < 5; k++)
@@ -870,7 +881,6 @@ int main()
 	}
 	opers = opers_tmp;
 	// This creates 13 strings ...
-
 	/*
 	std::cout << "=============\n";
 	for (int l = 0; l < opers.size(); l++)
@@ -891,10 +901,15 @@ int main()
 		- Create a big loop to loop over all possible combinations, with the ability to break out of all of it.
 		- Test on a given set of operations (e.g. "+-+*-+") first, but still create all data required to do full search. 
 		- Make optimizations where possible.
-		- 
+
+
+	Now we iterate over the permutations we have created in the search for a solution, this is
+	where multi-threading is employed to increase performance in obtaining a solution. If a solution
+	is not found the loop ends after approximately 30 seconds, otherwise the we break out of the loop
+	searching for the solution and the solution is displayed to the user.
 	*/
 	// This is pretty fast!
-	// Could it be faster??
+	// Could it be faster?
 	double combns = 0;
 	std::string strng = "0"; std::cout << "                                           ";
 	auto start1 = std::chrono::steady_clock::now();
@@ -933,7 +948,6 @@ int main()
 		// Testing for solutions
 		//cout << opers[p] << endl;
 		std::string thd1 = "0", thd2 = "0", thd3 = "0", thd4 = "0", thd5 = "0";
-		//std::string thd6 = "0", thd7 = "0", thd8 = "0", thd9 = "0", thd10 = "0", thd11 = "0", thd12 = "0", thd13 = "0", thd14 = "0", thd15 = "0";
 		int r = 0; 
 		for (int p = 0; p < Num_vec.size() / 5; p++)
 		{
@@ -952,7 +966,6 @@ int main()
 			t4.join();
 			//Display_stdvector_str(Num_vec[5 * p + 4]);
 			t5.join();	//cout << Ops_perm.size() << endl;
-			//t6.join(); t7.join(); t8.join(); t9.join(); t10.join(); t11.join(); t12.join(); t13.join(); t14.join(); t15.join();
 			if (thd1 != "0") { strng = thd1; break; }
 			if (thd2 != "0") { strng = thd2; break; }
 			if (thd3 != "0") { strng = thd3; break; }

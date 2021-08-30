@@ -1,59 +1,59 @@
 ﻿  Countdown.cpp
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(112,10): warning C4002: too many arguments for function-like macro invocation 'assert'
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(111,13): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(112,10): warning C4018: '>=': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(117,13): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(157,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(165,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(273,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(288,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(311,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(321,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(326,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(328,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(336,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(347,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(355,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(358,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(392,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(406,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(464,29): warning C4305: 'argument': truncation from 'int' to 'const _Elem'
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(112,10): warning C4002: too many arguments for function-like macro invocation 'assert'
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(111,13): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(112,10): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(117,13): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(157,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(165,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(273,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(288,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(311,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(321,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(326,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(328,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(336,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(347,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(355,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(358,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(392,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(406,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(464,29): warning C4305: 'argument': truncation from 'int' to 'const _Elem'
           with
           [
               _Elem=char
           ]
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(464,23): warning C4309: 'argument': truncation of constant value
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(488,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(493,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(502,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(506,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(523,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(609,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(613,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(619,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(635,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(646,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(652,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(672,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(676,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(680,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(685,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(700,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(711,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(713,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(723,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(728,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(732,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(746,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(754,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(757,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(780,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(841,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(846,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(849,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(908,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(910,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(914,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(938,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Countdown.cpp(113): warning C4715: 'MVector::operator[]': not all control paths return a value
-  Project1.vcxproj -> C:\Users\Tom\Documents\UNI\C++\Countdown\Project1\Debug\Project1.exe
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(464,23): warning C4309: 'argument': truncation of constant value
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(488,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(493,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(502,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(506,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(523,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(609,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(613,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(619,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(635,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(646,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(652,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(672,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(676,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(680,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(685,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(700,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(711,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(713,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(723,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(728,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(732,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(746,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(754,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(757,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(780,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(852,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(857,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(860,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(923,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(925,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(929,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(952,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Countdown.cpp(113): warning C4715: 'MVector::operator[]': not all control paths return a value
+  Project1.vcxproj -> C:\Users\Tom\Documents\UNI\C++\Countdown_Game\Countdown-Numbers-Game\Project1\Debug\Project1.exe
